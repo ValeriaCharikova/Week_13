@@ -3,25 +3,25 @@ function showMessage() {
   alert(`Привет, ${name}!`);
 }
 
-function addition() {
+function calcSum() {
   let a = prompt("Первое число");
   let b = prompt("Второе число");
   alert(+a + +b);
 }
 
-function subtraction() {
+function calcSubtraction() {
   let a = prompt("Первое число");
   let b = prompt("Второе число");
   alert(a - b);
 }
 
-function multiplication() {
+function calcMultiplication() {
   let a = prompt("Первое число");
   let b = prompt("Второе число");
   alert(a * b);
 }
 
-function division() {
+function calcDivision() {
   let a = prompt("Первое число");
   let b = prompt("Второе число");
   alert(a / b);
